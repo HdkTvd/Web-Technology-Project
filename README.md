@@ -5,4 +5,4 @@ The technologies used to build this website are HTML, CSS, Nodejs Express and Mo
 
 On the terminal type 'node app.js' to be able to run this application.
 For Student to access, Open views\student.html
-For Teacher too access, Open views\teacher_registration.html
+For Teacher to access, Open views\teacher_registration.html
