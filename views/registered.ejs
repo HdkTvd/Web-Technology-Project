@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <% include ./partials/navbar %>
+        <style>
+            body {
+              font-family: Arial, Helvetica, sans-serif;
+              background-image: url('http://elearningjourneys.com/wp-content/uploads/2016/04/AAAA.jpg');
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+        </style>
+        <title>Registered!</title>
+    </head>
+    <body>
+        <h1>Welcome!</h1>
+        <h2>You have succesfully registered as a teacher. You will recieve an email on the registered emai address.</h2>
+        <div>
+            <form action="http://localhost:5000/users/upload" enctype="multipart/form-data" method="POST">
+                <input type="file" name="videofile" accept="video/mp4" multiple><br>
+                <textarea name="description" cols="30" rows="10" placeholder="Description"></textarea>
+                <label>videonumber<input type="text" name="video_no" /></label>
+                <label>coursename<input type="text" name="coursename" /></label>
+                <button type="submit" class="btn btn-primary btn-block" style="width: 150px;">Upload</button>
+            </form>
+        </div>
+        <% include ./partials/footer %>
+    </body>
+</html>

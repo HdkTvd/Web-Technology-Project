@@ -1,8 +1,23 @@
-Web Technology Project
+# Node.js & Passport Login
 
-This is an E-Learning Website.
-The technologies used to build this website are HTML, CSS, Nodejs Express and Mongodb for Database management.
+This is a user login and registration app using Node.js, Express, Passport, Mongoose, EJS and some other packages.
 
-On the terminal type 'node app.js' to be able to run this application.
-For Student to access, Open views\student.html
-For Teacher to access, Open views\teacher_registration.html
+### Version: 2.0.0
+
+### Usage
+
+```sh
+$ npm install
+```
+
+```sh
+$ npm start
+# Or run with Nodemon
+$ npm run dev
+
+# Visit http://localhost:5000
+```
+
+### MongoDB
+
+Open "config/keys.js" and add your MongoDB URI, local or Atlas
